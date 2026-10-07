@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(23, 10, 196);
+    margin: 0;
+}
+
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+main {
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(175, 172, 172);
+    background-color: rgb(128, 0, 98);
+}
+
+#player-data {
+    display: flex;
+}
